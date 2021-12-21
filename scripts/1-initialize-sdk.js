@@ -33,7 +33,7 @@ const sdk = new ThirdwebSDK(
 (async () => {
   try {
     const apps = await sdk.getApps();
-    console.log("Your app address:", apps[0].address);
+    console.log("👋Your app address:", apps[0].address);
   } catch (err) {
     console.error("Failed to get apps from SDK", err);
     process.exit(1);

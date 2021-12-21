@@ -2,7 +2,7 @@ import sdk from "/Users/ajeir/buidlDao/buildspace-dao-starter/scripts/1-initiali
 import { readFileSync } from "fs";
 
 const bundleDrop = sdk.getBundleDropModule(
-  "0xCaeb3aa2821c19471F81e35370C1e37d8AADCc4a",
+  "0xCcB5f6975A01A315000bee857Ee9f9FfF879899a",
 );
 
 (async () => {
