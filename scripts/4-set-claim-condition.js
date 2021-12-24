@@ -1,4 +1,4 @@
-import sdk from "/Users/ajeir/buidlDao/buildspace-dao-starter/scripts/1-initialize-sdk.js";
+import sdk from "/Users/ajeir/Development/Web3/buidlDao/buildspace-dao-starter/scripts/1-initialize-sdk.js";
 
 const bundleDrop = sdk.getBundleDropModule(
   "0xCcB5f6975A01A315000bee857Ee9f9FfF879899a",

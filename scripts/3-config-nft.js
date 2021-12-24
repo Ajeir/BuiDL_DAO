@@ -1,8 +1,8 @@
-import sdk from "/Users/ajeir/buidlDao/buildspace-dao-starter/scripts/1-initialize-sdk.js";
+import sdk from "/Users/ajeir/Development/Web3/buidlDao/buildspace-dao-starter/scripts/1-initialize-sdk.js";
 import { readFileSync } from "fs";
 
 const bundleDrop = sdk.getBundleDropModule(
-  "0xCcB5f6975A01A315000bee857Ee9f9FfF879899a",
+  "0x7D5FA0ca749072256406d78739d3c49600f6d34f",
 );
 
 (async () => {
@@ -11,7 +11,7 @@ const bundleDrop = sdk.getBundleDropModule(
       {
         name: "BuiDlDAO Entry",
         description: "NFT access to the DAO",
-        Image: readFileSync("scripts/assets/buildDao.jpg"),
+        Image: readFileSync("/Users/ajeir/buidlDao/buildspace-dao-starter/scripts/assets/buildDao.jpg"),
       },
     ]);
     console.log("A new NFT has been created in the drop! ");
